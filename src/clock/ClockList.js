@@ -1,6 +1,6 @@
 import Clock from "./Clock";
 
-function ClockList({ quantities = [] }) {
+function ClockList({ quantities = [1] }) {
   return (
     <div>
       {quantities.map(() => (
